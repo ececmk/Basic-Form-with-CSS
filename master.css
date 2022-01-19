@@ -1,0 +1,58 @@
+
+body {
+  font-family: Arial, Helvetica, sans-sans-serif;
+}
+
+form {
+  padding: 40px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+.form-row label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.radio-container label {
+  display: inline-block;
+}
+
+.radio-container label + label {
+  margin-left: 20px;
+}
+
+.button {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 18px;
+   padding: 12px;
+   background-color: #1C6DD0;
+   border: solid #0D772A 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea
+ {
+  width: 100%;
+  border-radius: 5px;
+  height: 42px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}

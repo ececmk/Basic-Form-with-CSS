@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Form ve Elemanları</title>
+  <link rel="stylesheet" href="css/master.css">
+</head>
+
+<body>
+  <form class="" action="https://httpin.org/post" method="post">
+    <div class="form-row">
+      <label for="ad">Adınız</label>
+      <input name="ad" id="ad" type="text" required>
+    </div>
+    <div class="form-row">
+      <label for=soyad">Soyadınız</label>
+      <input name=soyad" id="ad-soyad" type="text" required>
+    </div>
+    <div class="form-row">
+      <label for="telefon">Telefon</label>
+      <input name="tel" id="telefon" type="tel" required>
+    </div>
+    <div class="form-row">
+      <label for="email">E-mail</label>
+      <input name="email" id="email" type="email" required>
+    </div>
+    <div class="form-row">
+      <label for="cinsiyet">Cinsiyet</label>
+      <select id="cinsiyet" name="cinsiyet">
+        <option value="">Kadın</option>
+        <option value="">Erkek</option>
+        <option value="">Diğer</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label for="mesaj">Mesajınız</label>
+      <textarea name="mesaj" rows="5"></textarea>
+    </div>
+    <div class="form-row">
+      <p>Renk Tercihiniz</p>
+      <div class="radio-container">
+        <label for="renk"><input type="radio" name="renk" value="kirmizi">Kırmızı</label>
+        <label for="renk"><input type="radio" name="renk" value="mavi">Mavi</label>
+        <label for="renk"><input type="radio" name="renk" value="yesil">Yeşil</label>
+      </div>
+    </div>
+    <div class="form-row">
+      <button class="button" type="submit" name="button">Gönder</button>
+    </div>
+  </form>
+</body>
+
+</html>
